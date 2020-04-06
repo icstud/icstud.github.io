@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Lime">
   <meta name="keywords" content="">
-  <title>墨云工作室-创造未来</title>
+  <title>关于 - 墨云工作室-创造未来</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -41,7 +41,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -130,10 +130,6 @@
           </div>
 
           
-            <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
-            </div>
-          
         </div>
       </div>
     </div>
@@ -143,46 +139,44 @@
     
       <div class="container nopadding-md">
         <div class="py-5" id="board"
-          style=margin-top:0>
+          >
+          
+            <div class="about-avatar">
+              <img src="/img/avatar.png" srcset="/img/loading.gif"
+                   class="img-fluid" alt="avatar">
+            </div>
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-
-  <div class="row mx-auto index-card">
+<div class="text-center">
+  <p class="h3">Lime</p>
+  <p>info / info / info</p>
+  
     
     
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/04/05/%E7%AE%80%E4%BB%8B/">
-        <p class="h4 index-header">简介</p>
-      </a>
-
-      <a href="/2020/04/05/%E7%AE%80%E4%BB%8B/" class="index-excerpt-wrap">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">墨云工作室-官网 IC! 本站正处于建设阶段. 后期会添加更多内容|
+    
+    <a href="https://github.com" target="_blank" rel="noopener" class="h4 px-1 false">
+      <i class="fab fa-github" aria-hidden="true"></i>
+      
+    </a>
+  
+    
+    
+    
+    <a href="https://twitter.com" target="_blank" rel="noopener" class="h4 px-1 false">
+      <i class="fab fa-twitter" aria-hidden="true"></i>
+      
+    </a>
+  
+    
+    
 </div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-04-05&nbsp;&nbsp;
-        
-        
-        
-      </div>
-    </div>
-  </div>
-
-
-
-
+<div class="mt-5 markdown-body">
+  
+</div>
 
               </div>
             </div>
@@ -288,6 +282,20 @@
 
 
 
+  <script  src="https://cdn.staticfile.org/prettify/188.0.0/prettify.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      $('pre').each(function () {
+        const pre = $(this);
+        if (pre.find('code.mermaid').length > 0) {
+          return;
+        }
+        pre.addClass('prettyprint  linenums');
+      });
+      prettyPrint();
+    })
+  </script>
+
 
 
   <script  src="https://cdn.staticfile.org/typed.js/2.0.11/typed.min.js" ></script>
@@ -295,7 +303,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "IC-OPEN  PLATFORM&nbsp;",
+        "关于&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
