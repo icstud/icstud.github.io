@@ -8,9 +8,19 @@
     <link href="/2020/04/08/Linux%E5%AD%A6%E4%B9%A0-2/"/>
     <url>/2020/04/08/Linux%E5%AD%A6%E4%B9%A0-2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;Linux cd 命令可以说是Linux中最基本的命令语句，其他的命令语句要进行操作，都是建立在使用 cd 命令上的。所以，学习Linux 常用命令，首先就要学好 cd 命令的使用方法技巧。</p><h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h2><pre><code class="cd">$ cd [目录名]</code></pre><h2 id="命令功能"><a href="#命令功能" class="headerlink" title="命令功能"></a>命令功能</h2><p>切换当前目录至目标目录</p><h2 id="上栗子"><a href="#上栗子" class="headerlink" title="上栗子"></a>上栗子</h2><h3 id="一：进入系统根目录"><a href="#一：进入系统根目录" class="headerlink" title="一：进入系统根目录"></a><font color="#dd0000">一：</font>进入系统根目录</h3><pre><code class="bash">$ cd /</code></pre><h3 id="二：进入父级目录"><a href="#二：进入父级目录" class="headerlink" title="二：进入父级目录"></a><font color="#dd0000">二：</font>进入父级目录</h3><pre><code class="bash">$ cd ..$ cd ..//</code></pre><h3 id="三："><a href="#三：" class="headerlink" title="三："></a><font color="#dd0000">三：</font></h3><pre><code class="bash">$ cd$ cd ~</code></pre><h3 id="四：跳转到指定目录"><a href="#四：跳转到指定目录" class="headerlink" title="四：跳转到指定目录"></a><font color="#dd0000">四：</font>跳转到指定目录</h3><pre><code class="bash">$ cd /usr/bin</code></pre><h3 id="五：返回进入此目录之前所在的目录"><a href="#五：返回进入此目录之前所在的目录" class="headerlink" title="五：返回进入此目录之前所在的目录"></a><font color="#dd0000">五：</font>返回进入此目录之前所在的目录</h3><pre><code class="bash">$ cd -</code></pre><h3 id="六：把上个命令的参数作为cd参数使用"><a href="#六：把上个命令的参数作为cd参数使用" class="headerlink" title="六：把上个命令的参数作为cd参数使用"></a><font color="#dd0000">六：</font>把上个命令的参数作为cd参数使用</h3><pre><code class="bash">$ cd !$</code></pre><p>转载请注明来源，欢迎指出任何有错误或不够清晰的表达。可以邮件至<a href="mailto:ingmiaojiaqikaifa@163.com">ingmiaojiaqikaifa@163.com</a> 快速链接：<a href="https://mail.163.com/js6/main.jsp?sid=uAJfwaclcTmbrEiVYWllaDwZjjKskyYB&df=email163#module=welcome.WelcomeModule%7C%7B%7D" target="_blank" rel="noopener">Email</a></p>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>Linux</tag>
+      
+      <tag>水帖</tag>
+      
+      <tag>cd</tag>
+      
+    </tags>
     
   </entry>
   
@@ -30,6 +40,8 @@
       <tag>Linux</tag>
       
       <tag>水帖</tag>
+      
+      <tag>ls</tag>
       
     </tags>
     
